@@ -1,0 +1,517 @@
+[gd_scene load_steps=129 format=2]
+
+[ext_resource path="res://assets/dae/hex_forest_roadL.dae" type="PackedScene" id=1]
+[ext_resource path="res://assets/dae/hex_forest_waterA_detail.dae" type="PackedScene" id=2]
+[ext_resource path="res://assets/dae/hex_forest_roadE.dae" type="PackedScene" id=3]
+[ext_resource path="res://assets/dae/hex_forest_waterA.dae" type="PackedScene" id=4]
+[ext_resource path="res://assets/dae/hex_forest_roadD.dae" type="PackedScene" id=5]
+[ext_resource path="res://assets/dae/hex_forest_roadE_detail.dae" type="PackedScene" id=6]
+[ext_resource path="res://assets/dae/hex_forest_waterC_detail.dae" type="PackedScene" id=7]
+[ext_resource path="res://assets/dae/hex_rock_roadB.dae" type="PackedScene" id=8]
+[ext_resource path="res://assets/dae/hex_rock_roadB_detail.dae" type="PackedScene" id=9]
+[ext_resource path="res://assets/dae/hex_forest_roadF.dae" type="PackedScene" id=10]
+[ext_resource path="res://assets/dae/hex_forest_roadB.dae" type="PackedScene" id=11]
+[ext_resource path="res://assets/dae/hex_forest_roadF_detail.dae" type="PackedScene" id=12]
+[ext_resource path="res://assets/dae/hex_forest_roadH.dae" type="PackedScene" id=13]
+[ext_resource path="res://assets/dae/hex_forest_roadK_detail.dae" type="PackedScene" id=14]
+[ext_resource path="res://assets/dae/hex_forest_roadD_detail.dae" type="PackedScene" id=15]
+[ext_resource path="res://assets/dae/hex_forest_roadI_detail.dae" type="PackedScene" id=16]
+[ext_resource path="res://assets/dae/hex_forest_roadJ.dae" type="PackedScene" id=17]
+[ext_resource path="res://assets/dae/hex_forest_roadH_detail.dae" type="PackedScene" id=18]
+[ext_resource path="res://assets/dae/hex_forest_roadM.dae" type="PackedScene" id=19]
+[ext_resource path="res://assets/dae/hex_forest_roadK.dae" type="PackedScene" id=20]
+[ext_resource path="res://assets/dae/hex_forest_roadC.dae" type="PackedScene" id=21]
+[ext_resource path="res://assets/dae/hex_forest_roadA_detail.dae" type="PackedScene" id=22]
+[ext_resource path="res://assets/dae/hex_forest_roadM_detail.dae" type="PackedScene" id=23]
+[ext_resource path="res://assets/dae/hex_forest_roadL_detail.dae" type="PackedScene" id=24]
+[ext_resource path="res://assets/dae/hex_forest_transitionB.dae" type="PackedScene" id=25]
+[ext_resource path="res://assets/dae/hex_forest_detail.dae" type="PackedScene" id=26]
+[ext_resource path="res://assets/dae/hex_forest_waterB.dae" type="PackedScene" id=27]
+[ext_resource path="res://assets/dae/hex_forest_waterB_detail.dae" type="PackedScene" id=28]
+[ext_resource path="res://assets/dae/hex_forest_waterA_empty.dae" type="PackedScene" id=29]
+[ext_resource path="res://assets/dae/hex_forest.dae" type="PackedScene" id=30]
+[ext_resource path="res://assets/dae/hex_forest_roadG_detail.dae" type="PackedScene" id=31]
+[ext_resource path="res://assets/dae/hex_forest_waterC.dae" type="PackedScene" id=32]
+[ext_resource path="res://assets/dae/hex_rock_roadA_detail.dae" type="PackedScene" id=33]
+[ext_resource path="res://assets/dae/hex_forest_waterD_detail.dae" type="PackedScene" id=34]
+[ext_resource path="res://assets/dae/hex_rock_detail.dae" type="PackedScene" id=35]
+[ext_resource path="res://assets/dae/hex_forest_waterC_empty.dae" type="PackedScene" id=36]
+[ext_resource path="res://assets/dae/hex_forest_waterD_empty.dae" type="PackedScene" id=37]
+[ext_resource path="res://assets/dae/hex_rock.dae" type="PackedScene" id=38]
+[ext_resource path="res://assets/dae/hex_forest_roadG.dae" type="PackedScene" id=39]
+[ext_resource path="res://assets/dae/hex_forest_roadA.dae" type="PackedScene" id=40]
+[ext_resource path="res://assets/dae/hex_forest_roadB_detail.dae" type="PackedScene" id=41]
+[ext_resource path="res://assets/dae/hex_forest_roadC_detail.dae" type="PackedScene" id=42]
+[ext_resource path="res://assets/dae/hex_forest_roadI.dae" type="PackedScene" id=43]
+[ext_resource path="res://assets/dae/hex_forest_roadJ_detail.dae" type="PackedScene" id=44]
+[ext_resource path="res://assets/dae/hex_forest_transitionA.dae" type="PackedScene" id=45]
+[ext_resource path="res://assets/dae/hex_forest_waterD.dae" type="PackedScene" id=46]
+[ext_resource path="res://assets/dae/hex_forest_waterB_empty.dae" type="PackedScene" id=47]
+[ext_resource path="res://assets/dae/hex_rock_roadA.dae" type="PackedScene" id=48]
+[ext_resource path="res://assets/dae/hex_rock_roadC.dae" type="PackedScene" id=49]
+[ext_resource path="res://assets/dae/hex_rock_roadG.dae" type="PackedScene" id=50]
+[ext_resource path="res://assets/dae/hex_rock_roadG_detail.dae" type="PackedScene" id=51]
+[ext_resource path="res://assets/dae/hex_rock_roadC_detail.dae" type="PackedScene" id=52]
+[ext_resource path="res://assets/dae/hex_rock_roadE.dae" type="PackedScene" id=53]
+[ext_resource path="res://assets/dae/hex_rock_roadF.dae" type="PackedScene" id=54]
+[ext_resource path="res://assets/dae/hex_rock_roadE_detail.dae" type="PackedScene" id=55]
+[ext_resource path="res://assets/dae/hex_rock_roadF_detail.dae" type="PackedScene" id=56]
+[ext_resource path="res://assets/dae/hex_rock_roadH.dae" type="PackedScene" id=57]
+[ext_resource path="res://assets/dae/hex_rock_roadD_detail.dae" type="PackedScene" id=58]
+[ext_resource path="res://assets/dae/hex_rock_roadD.dae" type="PackedScene" id=59]
+[ext_resource path="res://assets/dae/hex_sand_roadK.dae" type="PackedScene" id=60]
+[ext_resource path="res://assets/dae/hex_sand_roadH.dae" type="PackedScene" id=61]
+[ext_resource path="res://assets/dae/hex_sand_waterA.dae" type="PackedScene" id=62]
+[ext_resource path="res://assets/dae/hex_sand_roadA.dae" type="PackedScene" id=63]
+[ext_resource path="res://assets/dae/hex_rock_waterC.dae" type="PackedScene" id=64]
+[ext_resource path="res://assets/dae/hex_sand_roadH_detail.dae" type="PackedScene" id=65]
+[ext_resource path="res://assets/dae/hex_sand_waterA_detail.dae" type="PackedScene" id=66]
+[ext_resource path="res://assets/dae/hex_rock_waterD.dae" type="PackedScene" id=67]
+[ext_resource path="res://assets/dae/hex_rock_roadM_detail.dae" type="PackedScene" id=68]
+[ext_resource path="res://assets/dae/hex_sand_detail.dae" type="PackedScene" id=69]
+[ext_resource path="res://assets/dae/hex_sand_transitionA.dae" type="PackedScene" id=70]
+[ext_resource path="res://assets/dae/hex_sand_waterA_empty.dae" type="PackedScene" id=71]
+[ext_resource path="res://assets/dae/hex_sand_roadK_detail.dae" type="PackedScene" id=72]
+[ext_resource path="res://assets/dae/hex_rock_waterD_detail.dae" type="PackedScene" id=73]
+[ext_resource path="res://assets/dae/hex_sand_roadC.dae" type="PackedScene" id=74]
+[ext_resource path="res://assets/dae/hex_sand_waterB.dae" type="PackedScene" id=75]
+[ext_resource path="res://assets/dae/hex_sand_waterB_detail.dae" type="PackedScene" id=76]
+[ext_resource path="res://assets/dae/hex_rock_roadL.dae" type="PackedScene" id=77]
+[ext_resource path="res://assets/dae/hex_sand_roadJ.dae" type="PackedScene" id=78]
+[ext_resource path="res://assets/dae/hex_sand_waterB_empty.dae" type="PackedScene" id=79]
+[ext_resource path="res://assets/dae/hex_sand_waterC.dae" type="PackedScene" id=80]
+[ext_resource path="res://assets/dae/hex_sand_waterC_detail.dae" type="PackedScene" id=81]
+[ext_resource path="res://assets/dae/hex_rock_roadJ.dae" type="PackedScene" id=82]
+[ext_resource path="res://assets/dae/hex_sand_waterC_empty.dae" type="PackedScene" id=83]
+[ext_resource path="res://assets/dae/hex_rock_roadI.dae" type="PackedScene" id=84]
+[ext_resource path="res://assets/dae/hex_rock_waterB_detail.dae" type="PackedScene" id=85]
+[ext_resource path="res://assets/dae/hex_rock_transitionA.dae" type="PackedScene" id=86]
+[ext_resource path="res://assets/dae/hex_sand_roadF.dae" type="PackedScene" id=87]
+[ext_resource path="res://assets/dae/hex_sand_roadD.dae" type="PackedScene" id=88]
+[ext_resource path="res://assets/dae/hex_rock_roadK.dae" type="PackedScene" id=89]
+[ext_resource path="res://assets/dae/hex_sand.dae" type="PackedScene" id=90]
+[ext_resource path="res://assets/dae/hex_sand_roadC_detail.dae" type="PackedScene" id=91]
+[ext_resource path="res://assets/dae/hex_rock_roadM.dae" type="PackedScene" id=92]
+[ext_resource path="res://assets/dae/hex_sand_roadE.dae" type="PackedScene" id=93]
+[ext_resource path="res://assets/dae/hex_sand_roadI.dae" type="PackedScene" id=94]
+[ext_resource path="res://assets/dae/hex_sand_roadI_detail.dae" type="PackedScene" id=95]
+[ext_resource path="res://assets/dae/hex_rock_roadK_detail.dae" type="PackedScene" id=96]
+[ext_resource path="res://assets/dae/hex_rock_waterA_detail.dae" type="PackedScene" id=97]
+[ext_resource path="res://assets/dae/hex_rock_roadH_detail.dae" type="PackedScene" id=98]
+[ext_resource path="res://assets/dae/hex_rock_roadL_detail.dae" type="PackedScene" id=99]
+[ext_resource path="res://assets/dae/hex_rock_transitionB.dae" type="PackedScene" id=100]
+[ext_resource path="res://assets/dae/hex_rock_waterC_detail.dae" type="PackedScene" id=101]
+[ext_resource path="res://assets/dae/hex_rock_roadI_detail.dae" type="PackedScene" id=102]
+[ext_resource path="res://assets/dae/hex_rock_waterB_empty.dae" type="PackedScene" id=103]
+[ext_resource path="res://assets/dae/hex_rock_waterC_empty.dae" type="PackedScene" id=104]
+[ext_resource path="res://assets/dae/hex_sand_roadB.dae" type="PackedScene" id=105]
+[ext_resource path="res://assets/dae/hex_rock_waterA.dae" type="PackedScene" id=106]
+[ext_resource path="res://assets/dae/hex_sand_roadB_detail.dae" type="PackedScene" id=107]
+[ext_resource path="res://assets/dae/hex_sand_roadE_detail.dae" type="PackedScene" id=108]
+[ext_resource path="res://assets/dae/hex_rock_waterB.dae" type="PackedScene" id=109]
+[ext_resource path="res://assets/dae/hex_sand_roadA_detail.dae" type="PackedScene" id=110]
+[ext_resource path="res://assets/dae/hex_sand_roadG.dae" type="PackedScene" id=111]
+[ext_resource path="res://assets/dae/hex_sand_roadD_detail.dae" type="PackedScene" id=112]
+[ext_resource path="res://assets/dae/hex_rock_waterD_empty.dae" type="PackedScene" id=113]
+[ext_resource path="res://assets/dae/hex_sand_roadF_detail.dae" type="PackedScene" id=114]
+[ext_resource path="res://assets/dae/hex_rock_waterA_empty.dae" type="PackedScene" id=115]
+[ext_resource path="res://assets/dae/hex_sand_roadG_detail.dae" type="PackedScene" id=116]
+[ext_resource path="res://assets/dae/hex_sand_roadJ_detail.dae" type="PackedScene" id=117]
+[ext_resource path="res://assets/dae/hex_sand_roadL.dae" type="PackedScene" id=118]
+[ext_resource path="res://assets/dae/hex_sand_roadL_detail.dae" type="PackedScene" id=119]
+[ext_resource path="res://assets/dae/hex_sand_roadM.dae" type="PackedScene" id=120]
+[ext_resource path="res://assets/dae/hex_sand_roadM_detail.dae" type="PackedScene" id=121]
+[ext_resource path="res://assets/dae/hex_sand_transitionB.dae" type="PackedScene" id=122]
+[ext_resource path="res://assets/dae/hex_rock_roadJ_detail.dae" type="PackedScene" id=123]
+[ext_resource path="res://assets/dae/hex_sand_waterD.dae" type="PackedScene" id=124]
+[ext_resource path="res://assets/dae/hex_sand_waterD_empty.dae" type="PackedScene" id=125]
+[ext_resource path="res://assets/dae/hex_sand_waterD_detail.dae" type="PackedScene" id=126]
+[ext_resource path="res://assets/dae/hex_water.dae" type="PackedScene" id=127]
+[ext_resource path="res://assets/dae/hex_water_detail.dae" type="PackedScene" id=128]
+
+[node name="hexs" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0539627, 0.226646, -0.170574 )
+
+[node name="hex_forest" parent="." instance=ExtResource( 30 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_detail" parent="." instance=ExtResource( 26 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadA" parent="." instance=ExtResource( 40 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadA_detail" parent="." instance=ExtResource( 22 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadB" parent="." instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadB_detail" parent="." instance=ExtResource( 41 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadC" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadC_detail" parent="." instance=ExtResource( 42 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadD" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadD_detail" parent="." instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadE" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadE_detail" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadF" parent="." instance=ExtResource( 10 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadF_detail" parent="." instance=ExtResource( 12 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadG" parent="." instance=ExtResource( 39 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadG_detail" parent="." instance=ExtResource( 31 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadH" parent="." instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadH_detail" parent="." instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadI" parent="." instance=ExtResource( 43 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadI_detail" parent="." instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadJ" parent="." instance=ExtResource( 17 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadJ_detail" parent="." instance=ExtResource( 44 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadK" parent="." instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadK_detail" parent="." instance=ExtResource( 14 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadL" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadL_detail" parent="." instance=ExtResource( 24 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadM" parent="." instance=ExtResource( 19 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_roadM_detail" parent="." instance=ExtResource( 23 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_transitionA" parent="." instance=ExtResource( 45 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_transitionB" parent="." instance=ExtResource( 25 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterA" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterA_detail" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterA_empty" parent="." instance=ExtResource( 29 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterB" parent="." instance=ExtResource( 27 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterB_detail" parent="." instance=ExtResource( 28 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterB_empty" parent="." instance=ExtResource( 47 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterC" parent="." instance=ExtResource( 32 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterC_detail" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterC_empty" parent="." instance=ExtResource( 36 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterD" parent="." instance=ExtResource( 46 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterD_detail" parent="." instance=ExtResource( 34 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_forest_waterD_empty" parent="." instance=ExtResource( 37 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock" parent="." instance=ExtResource( 38 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_detail" parent="." instance=ExtResource( 35 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadA" parent="." instance=ExtResource( 48 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadA_detail" parent="." instance=ExtResource( 33 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadB" parent="." instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadB_detail" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadC" parent="." instance=ExtResource( 49 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadC_detail" parent="." instance=ExtResource( 52 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadD" parent="." instance=ExtResource( 59 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadD_detail" parent="." instance=ExtResource( 58 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadE" parent="." instance=ExtResource( 53 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadE_detail" parent="." instance=ExtResource( 55 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadF" parent="." instance=ExtResource( 54 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadF_detail" parent="." instance=ExtResource( 56 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadG" parent="." instance=ExtResource( 50 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadG_detail" parent="." instance=ExtResource( 51 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadH" parent="." instance=ExtResource( 57 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadH_detail" parent="." instance=ExtResource( 98 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadI" parent="." instance=ExtResource( 84 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadI_detail" parent="." instance=ExtResource( 102 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadJ" parent="." instance=ExtResource( 82 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadJ_detail" parent="." instance=ExtResource( 123 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadK" parent="." instance=ExtResource( 89 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadK_detail" parent="." instance=ExtResource( 96 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadL" parent="." instance=ExtResource( 77 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadL_detail" parent="." instance=ExtResource( 99 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadM" parent="." instance=ExtResource( 92 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_roadM_detail" parent="." instance=ExtResource( 68 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_transitionA" parent="." instance=ExtResource( 86 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_transitionB" parent="." instance=ExtResource( 100 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterA" parent="." instance=ExtResource( 106 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterA_detail" parent="." instance=ExtResource( 97 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterA_empty" parent="." instance=ExtResource( 115 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterB" parent="." instance=ExtResource( 109 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterB_detail" parent="." instance=ExtResource( 85 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterB_empty" parent="." instance=ExtResource( 103 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterC" parent="." instance=ExtResource( 64 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterC_detail" parent="." instance=ExtResource( 101 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterC_empty" parent="." instance=ExtResource( 104 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterD" parent="." instance=ExtResource( 67 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterD_detail" parent="." instance=ExtResource( 73 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_rock_waterD_empty" parent="." instance=ExtResource( 113 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand" parent="." instance=ExtResource( 90 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_detail" parent="." instance=ExtResource( 69 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadA" parent="." instance=ExtResource( 63 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadA_detail" parent="." instance=ExtResource( 110 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadB" parent="." instance=ExtResource( 105 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadB_detail" parent="." instance=ExtResource( 107 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadC" parent="." instance=ExtResource( 74 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadC_detail" parent="." instance=ExtResource( 91 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadD" parent="." instance=ExtResource( 88 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadD_detail" parent="." instance=ExtResource( 112 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadE" parent="." instance=ExtResource( 93 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadE_detail" parent="." instance=ExtResource( 108 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadF" parent="." instance=ExtResource( 87 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadF_detail" parent="." instance=ExtResource( 114 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadG" parent="." instance=ExtResource( 111 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadG_detail" parent="." instance=ExtResource( 116 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadH" parent="." instance=ExtResource( 61 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadH_detail" parent="." instance=ExtResource( 65 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadI" parent="." instance=ExtResource( 94 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadI_detail" parent="." instance=ExtResource( 95 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadJ" parent="." instance=ExtResource( 78 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadJ_detail" parent="." instance=ExtResource( 117 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadK" parent="." instance=ExtResource( 60 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadK_detail" parent="." instance=ExtResource( 72 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadL" parent="." instance=ExtResource( 118 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadL_detail" parent="." instance=ExtResource( 119 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadM" parent="." instance=ExtResource( 120 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_roadM_detail" parent="." instance=ExtResource( 121 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_transitionA" parent="." instance=ExtResource( 70 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_transitionB" parent="." instance=ExtResource( 122 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterA" parent="." instance=ExtResource( 62 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterA_detail" parent="." instance=ExtResource( 66 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterA_empty" parent="." instance=ExtResource( 71 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterB" parent="." instance=ExtResource( 75 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterB_detail" parent="." instance=ExtResource( 76 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterB_empty" parent="." instance=ExtResource( 79 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterC" parent="." instance=ExtResource( 80 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterC_detail" parent="." instance=ExtResource( 81 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterC_empty" parent="." instance=ExtResource( 83 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterD" parent="." instance=ExtResource( 124 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterD_detail" parent="." instance=ExtResource( 126 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_sand_waterD_empty" parent="." instance=ExtResource( 125 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_water" parent="." instance=ExtResource( 127 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
+
+[node name="hex_water_detail" parent="." instance=ExtResource( 128 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3978, 11.6546, 17.2502 )
